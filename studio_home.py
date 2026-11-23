@@ -2,6 +2,7 @@ import streamlit as st
 import urllib.parse
 
 st.set_page_config(page_title="Help Tech | Digital Solutions", page_icon="🚀", layout="wide")
+st.markdown('<meta name="google-site-verification" content="dDEMtx3tEkGRYrKzCw7UrXi-7MFwOgKNfTtuXFGoEFI" />', unsafe_allow_html=True)
 
 # மேல் மூலையில் தமிழ் / English மொழி மாற்றும் வசதி
 lang = st.radio("🌐 மொழி / Language:", ["தமிழ்", "English"], horizontal=True)
