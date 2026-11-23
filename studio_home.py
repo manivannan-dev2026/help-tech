@@ -93,4 +93,4 @@ with st.form("contact_form"):
         msg = urllib.parse.quote(f"வணக்கம் Help Tech! 🙏\nபெயர்: {c_name}\nநிறுவனம்: {c_shop}\nதேவை: {c_app}\nமேலும் விபரங்கள் அறிய விரும்புகிறேன்.")
         st.markdown(f"**[{txt['wa_btn']}](https://wa.me{msg})**")
 
-st.caption("© 2026 Help Tech | Developed by Manivannan S | GitHub: manivannan-dev2026")
+st.caption("© 2026 Help Tech | Developed by Manivannan K | GitHub: manivannan-dev2026")
