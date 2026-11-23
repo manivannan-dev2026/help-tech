@@ -43,6 +43,7 @@ txt = {
 }[lang]
 
 # முகப்புத் தலைப்பு
+st.image("logo.png", width=180)
 st.title(txt["brand"])
 st.subheader(txt["tagline"])
 st.divider()
